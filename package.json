@@ -1,0 +1,13 @@
+{
+    "name": "EdisonSocketServer",
+    "description": "socket communication between nodejs and arduino sketch edison",
+    "version": "0.1.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "~4.4.5",
+        "socket.io": "^1.2.0"
+    }
+}
